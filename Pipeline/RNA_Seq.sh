@@ -6,7 +6,7 @@ cd /mnt/d/NGS/RNA_Seq
 
 # This pipeline:
 #  1. Convert SRA files to FASTQ format
-#  2. Performs quality control (FastQC, MultiQC)
+#  2. Performs quality control (FastQC)
 #  3. Trims adapters and low-quality bases (Trimmomatic)
 #  4. Aligns reads to a reference genome (HISAT2)
 #  5. Processes BAM files (samtools)
