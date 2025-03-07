@@ -4,6 +4,10 @@ SECONDS=0
 
 cd /mnt/d/NGS/RNA_Seq
 
+# 0. Create necessary directories
+
+mkdir Data Analysis Alignment Count
+
 # This pipeline:
 #  1. Convert SRA files to FASTQ format
 #  2. Performs quality control (FastQC)
@@ -13,7 +17,7 @@ cd /mnt/d/NGS/RNA_Seq
 #  6. Counts reads per gene (featureCounts)
 
 
-# 1 Convert SRA files to FASTQ format
+# 1. Convert SRA files to FASTQ format
 echo "Converting SRA files to FASTQ format"
 fastq-dump --skip-technical --read-filter pass SRR11412215 --outdir Data #single-end
 fastq-dump --skip-technical --read-filter pass SRR11412216 --outdir Data #single-end 
