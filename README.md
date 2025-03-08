@@ -37,8 +37,9 @@ This pipeline is designed with modularity and reproducibility in mind, allowing 
   - [featureCounts](http://bioinf.wehi.edu.au/featureCounts/)
   - [R](https://www.r-project.org/) with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 
-## Structure 
+## Repository Structure 
 
+```plaintext
 ├── Data
 │   ├── ReadME.pdf
 │   └── data.sh
