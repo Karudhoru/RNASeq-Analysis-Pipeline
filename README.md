@@ -40,31 +40,32 @@ This pipeline is designed with modularity and reproducibility in mind, allowing 
 ## Structure 
 
 ├── Data
-│   ├── ReadME.pdf
-│   └── data.sh
+│   ├── ReadME.pdf
+│   └── data.sh
 ├── Docs
-│   └── ToolsandSteps.pdf
+│   └── ToolsandSteps.pdf
 ├── Environment
-│   ├── ReadME.pdf
-│   └── environment.yml
+│   ├── ReadME.pdf
+│   └── environment.yml
 ├── Pipeline
-│   └── RNA_Seq.sh
+│   └── RNA_Seq.sh
 ├── QC Analysis
-│   ├── SRR11412215_pass_fastqc.pdf
-│   ├── SRR11412216_pass_fastqc.pdf
-│   ├── SRR11412229_pass_fastqc.pdf
-│   ├── SRR11412230_pass_fastqc.pdf
-│   ├── controlled_trimmed_fastqc.pdf
-│   ├── infected1_trimmed_fastqc.pdf
-│   └── infected_trimmed_fastqc.pdf
+│   ├── SRR11412215_pass_fastqc.pdf
+│   ├── SRR11412216_pass_fastqc.pdf
+│   ├── SRR11412229_pass_fastqc.pdf
+│   ├── SRR11412230_pass_fastqc.pdf
+│   ├── controlled_trimmed_fastqc.pdf
+│   ├── infected1_trimmed_fastqc.pdf
+│   └── infected_trimmed_fastqc.pdf
 ├── README.md
 ├── Results
-│   ├── DE_results.csv
-│   ├── MA_Plot.png
-│   ├── PCA.png
-│   └── volcano_plot.png
+│   ├── DE_results.csv
+│   ├── MA_Plot.png
+│   ├── PCA.png
+│   └── volcano_plot.png
 └── bin
     └── DE_Analysis.R
+
 
 ## Installation
 
