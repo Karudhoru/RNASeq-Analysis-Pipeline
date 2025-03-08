@@ -66,7 +66,7 @@ This pipeline is designed with modularity and reproducibility in mind, allowing 
 │   └── volcano_plot.png
 └── bin
     └── DE_Analysis.R
-
+```
 
 ## Installation
 
